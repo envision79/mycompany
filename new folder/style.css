@@ -1,0 +1,81 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+/*Base styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+nav{
+    margin: 4rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    font-weight: 400;
+    padding: 1rem;
+    border-left: 1px solid rgb(179, 179, 179);
+    border-right: 1px solid rgb(179, 179, 179);
+}
+
+.remove-bdr-first {
+    border-left: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.remove-bdr-last {
+    border-right: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+nav ul li:hover{
+    background-color: rgba(245, 245, 245, 245);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-photo {
+    height: 24rem;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 1.3rem;
+}
+.hello {
+    font-size: 8rem;
+    font-weight: 400;
+}
+.about p{
+    font-size: 2rem;
+    font-weight: 400;
+}
